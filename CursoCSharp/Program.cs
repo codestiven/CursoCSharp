@@ -1,8 +1,5 @@
-﻿Console.Write("nombre:");
-String nombre = Console.ReadLine();
+﻿string[] nombres = { "pablo", "laura", "pedro" };
+int[] notas = { 7, 5, 2, 10 };
+bool[] bools = { true, false };
 
-Console.Write("edad:");
-int edad = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine(nombre + edad);
-
+Console.WriteLine(nombres[0]);
