@@ -1,7 +1,7 @@
-﻿String texto1 = "hola";
-String texto2 = "mundo";
-String texto3 = string.Concat(texto1,texto2);
-Console.WriteLine(texto3.ToLower());
+﻿int num = 50;
+double num2 = 2.5;
+Console.WriteLine(num/num2);
+Console.WriteLine(Math.Abs(-5));
 
-
+Console.WriteLine(Math.Pow(2,5));
 
