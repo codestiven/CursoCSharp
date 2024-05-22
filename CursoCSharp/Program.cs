@@ -1,15 +1,8 @@
-﻿try
+﻿static void HolaMundo(string raras , int num)
 {
-    int[] notas = { 7, 5, 2, 10 };
-    Console.WriteLine(notas[11]);
-}
-catch (Exception e)
-{
-	Console.WriteLine(e);
-	throw;
-}
-finally
-{
-    Console.WriteLine("finalizo");
+    Console.WriteLine("cositas" + raras);
+    Console.WriteLine(num);
 }
 
+
+HolaMundo("raras",10);
