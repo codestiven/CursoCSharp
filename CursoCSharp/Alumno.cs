@@ -12,6 +12,7 @@ namespace CursoCSharp
         public int edad = 20;
         private double nota;
         public string grado;
+        public static int alumnot = 0;
 
         public Alumno(string Nombre, int Edad, double notaa, string Grado)
         {
@@ -19,6 +20,7 @@ namespace CursoCSharp
             edad = Edad;
             Nota = notaa;
             grado = Grado;
+            alumnot++;
         }
 
         public bool Aprobado()
