@@ -1,13 +1,7 @@
-﻿static void HolaMundo(string raras , int num)
+﻿int num = 0;
+
+while (num < 10)
 {
-    Console.WriteLine("cositas" + raras);
     Console.WriteLine(num);
+    num++;
 }
-
-static double caca(double caca)
-{
-    double res = (caca * caca);
-    return res;
-}
-
-Console.WriteLine(caca(10.5));
