@@ -10,15 +10,15 @@ namespace CursoCSharp
     {
         public string nombre;
         public int edad = 20;
-        public double nota;
+        private double nota;
         public string grado;
 
-        public Alumno(string nombre, int edad, double nota, string grado)
+        public Alumno(string Nombre, int Edad, double notaa, string Grado)
         {
-            this.nombre = nombre;
-            this.edad = edad;
-            this.nota = nota;
-            this.grado = grado;
+            nombre = Nombre;
+            edad = Edad;
+            Nota = notaa;
+            grado = Grado;
         }
 
         public bool Aprobado()
@@ -30,6 +30,22 @@ namespace CursoCSharp
             else
             {
                 return false;
+            }
+        }
+
+        public double Nota
+        {
+            get { return nota; }
+            set
+            {
+                if (value >= 0 && value <= 10)
+                {
+                    nota = value;
+                }
+                else
+                {
+                    nota = -1;
+                }
             }
         }
     }
