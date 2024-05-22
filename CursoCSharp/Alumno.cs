@@ -20,5 +20,17 @@ namespace CursoCSharp
             this.nota = nota;
             this.grado = grado;
         }
+
+        public bool Aprobado()
+        {
+            if (nota > 10)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
