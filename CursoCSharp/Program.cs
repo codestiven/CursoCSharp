@@ -4,5 +4,10 @@
     Console.WriteLine(num);
 }
 
+static double caca(double caca)
+{
+    double res = (caca * caca);
+    return res;
+}
 
-HolaMundo("raras",10);
+Console.WriteLine(caca(10.5));
