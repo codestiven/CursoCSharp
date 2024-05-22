@@ -1,12 +1,5 @@
-﻿for (int i = 0; i < 10; i++)
+﻿int[] ints = { 1, 2, 3, 4, 5, 7 };
+for (int i = 0; i < ints.Length; i++)
 {
-    Console.WriteLine(i);
-    if (i == 4)
-    {
-        break;
-    }
-    else
-    {
-        continue;
-    }
+    Console.WriteLine(ints[i]);
 }
